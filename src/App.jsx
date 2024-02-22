@@ -1,9 +1,13 @@
+import './styles/App.css';
 import React, { useState } from 'react';
-import NavBar from './components/NavBar/NavBar';
-import Product from './components/Product/Product';
-import Cart from './components/Product/Cart';
-import ItemListContainer from './components/ItemListContainer';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Navbar } from './components/Navbar';
+import { ItemListContainer } from './components/ItemListContainer';
+import { Footer } from './components/Footer';
+import { Cart } from './components/Cart';
+import { Checkout } from './components/Checkout';
+import { ItemDetailsContainer } from './components/ItemDetailsContainer';
+import { NotFound } from './components/NotFound';
 
 
 function App() {

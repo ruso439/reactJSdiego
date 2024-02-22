@@ -13,7 +13,7 @@ import {
   DropdownItem,
   NavbarText,
 } from 'reactstrap';
-import CartWidget from '../Product/cartWidget';
+import CartWidget from './CartWidget';
 
 function NavBar(args) {
   const [isOpen, setIsOpen] = useState(true);

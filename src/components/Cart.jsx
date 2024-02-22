@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
-const Cart = ({ cart, removeFromCart }) => {
+export const Cart = ({ cart, removeFromCart }) => {
   return (
     <Modal isOpen={cart.length > 0}>
       <ModalHeader>Your Cart</ModalHeader>
@@ -21,5 +21,3 @@ const Cart = ({ cart, removeFromCart }) => {
     </Modal>
   );
 };
-
-export default Cart;
