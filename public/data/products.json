@@ -1,7 +1,38 @@
 [
-    { "id": 1, "name": "1kg de miel", "weight": "1kg" },
-    { "id": 2, "name": "2kg de miel", "weight": "2kg" },
-    { "id": 3, "name": "3kg de miel", "weight": "3kg" },
-    { "id": 4, "name": "30kg de miel", "weight": "30kg" }
-  ]
-  
+{
+    "id": 1,
+    "title": "1 kg de miel",
+    "size": "1kg",
+    "price": 8,
+    "stock": 500,
+    "img": "1.jpg",
+    "category": "menos de 100, menor"
+},
+{
+  "id": 2,
+  "title": "2 kg de miel",
+  "size": "2kg",
+  "price": 14,
+  "stock": 200,
+  "img": "2.jpg",
+  "category": "menos de 100, menor"
+},
+{
+  "id": 3,
+  "title": "3 kg de miel",
+  "size": "3kg",
+  "price": 21,
+  "stock": 200,
+  "img": "3.jpg",
+  "category": "menos de 100, menor"
+},
+{
+  "id": 4,
+  "title": "30 kg de miel",
+  "size": "30kg",
+  "price": 200,
+  "stock": 500,
+  "img": "4.jpg",
+  "category": "menos de 100, menor"
+}
+]

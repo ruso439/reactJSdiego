@@ -1,7 +1,7 @@
 import './styles/App.css';
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Navbar } from './components/Navbar';
+import { NavBar } from './components/NavBar';
 import { ItemListContainer } from './components/ItemListContainer';
 import { Footer } from './components/Footer';
 import { Cart } from './components/Cart';
@@ -13,7 +13,7 @@ import { NotFound } from './components/NotFound';
 function App() {
   const [cart, setCart] = useState([]);
 
-  const products = [
+  const product = [
     { name: 'Miel de 1kg', price: 8 },
     { name: 'Miel de 2kg', price: 14 },
     { name: 'Miel de 3kg', price: 21 },
@@ -29,17 +29,17 @@ function App() {
   };
 
   return (
-    <div>
+    <>
       <NavBar />
 
       <ItemListContainer greeting="¡Bienvenido a nuestra tienda en línea!" />
       
       {products.map((product, index) => (
-        <Product key={index} product={product} addToCart={addToCart} />
+        <product key={index} product={product} addToCart={addToCart} />
       ))}
       <Cart cart={cart} removeFromCart={removeFromCart} />
       
-    </div>
+    </>
   );
 }
 

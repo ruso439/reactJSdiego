@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
   Collapse,
-  Navbar,
+  Navbar as ReactstrapNavbar,
   NavbarToggler,
   NavbarBrand,
   Nav,
@@ -15,13 +15,13 @@ import {
 } from 'reactstrap';
 import CartWidget from './CartWidget';
 
-function NavBar(args) {
+export function Navbar(args) {
   const [isOpen, setIsOpen] = useState(true);
   const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div>
-      <Navbar color="warning" light expand="md" {...args}>
+      <ReactstrapNavbar color="warning" light expand="md" {...args}>
         <NavbarBrand href="/">Natural Honey</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -52,9 +52,7 @@ function NavBar(args) {
             </NavItem>
           </Nav>
         </Collapse>
-      </Navbar>
+      </ReactstrapNavbar>
     </div>
   );
 }
-
-export default NavBar;
