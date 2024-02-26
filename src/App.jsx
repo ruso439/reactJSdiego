@@ -10,9 +10,14 @@ import { ItemDetailsContainer } from './components/ItemDetailsContainer';
 import { NotFound } from './components/NotFound';
 
 export const App = () => {
+  
   return (
     <BrowserRouter>
       <Navbar />
+      <ItemListContainer greeting="¡Bienvenido a nuestra tienda en línea!" />
+      
+    
+      
       <Routes>
         <Route path='/' element={<ItemListContainer />} />
         <Route path='/category/:cid' element={<ItemListContainer />} />
