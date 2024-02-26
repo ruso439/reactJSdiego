@@ -15,7 +15,7 @@ import {
 } from 'reactstrap';
 import CartWidget from './CartWidget';
 
-export function Navbar(args) {
+export function Navbar (args) {
   const [isOpen, setIsOpen] = useState(true);
   const toggle = () => setIsOpen(!isOpen);
 
