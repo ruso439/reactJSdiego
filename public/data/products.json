@@ -5,7 +5,7 @@
     "size": "1kg",
     "price": 8,
     "stock": 500,
-    "img": "1.jpg",
+    "img": "1.png",
     "category": "menos de 100, menor"
 },
 {
@@ -14,7 +14,7 @@
   "size": "2kg",
   "price": 14,
   "stock": 200,
-  "img": "2.jpg",
+  "img": "2.png",
   "category": "menos de 100, menor"
 },
 {
@@ -23,7 +23,7 @@
   "size": "3kg",
   "price": 21,
   "stock": 200,
-  "img": "3.jpg",
+  "img": "3.png",
   "category": "menos de 100, menor"
 },
 {
