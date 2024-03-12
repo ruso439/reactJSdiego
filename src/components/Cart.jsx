@@ -1,4 +1,6 @@
 import React from 'react';
+import { useCarritoContext } from "../context/CartContext";
+import { ItemList } from './ItemList';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 export const Cart = ({ cart, removeFromCart }) => {

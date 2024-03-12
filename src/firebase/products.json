@@ -1,0 +1,38 @@
+[
+{
+    "id": 1,
+    "title": "1 kg de miel",
+    "size": "1kg",
+    "price": 8,
+    "stock": 500,
+    "img": "https://firebasestorage.googleapis.com/v0/b/reactjsdiego.appspot.com/o/1.png?alt=media&token=ce341ebc-1671-4220-9cf2-b2a28daa479c",
+    "category": "menos de 100, menor"
+},
+{
+  "id": 2,
+  "title": "2 kg de miel",
+  "size": "2kg",
+  "price": 14,
+  "stock": 200,
+  "img": "https://firebasestorage.googleapis.com/v0/b/reactjsdiego.appspot.com/o/2.png?alt=media&token=2a77b0ee-e2bd-4ebd-b319-118f3364dc89",
+  "category": "menos de 100, menor"
+},
+{
+  "id": 3,
+  "title": "3 kg de miel",
+  "size": "3kg",
+  "price": 21,
+  "stock": 200,
+  "img": "https://firebasestorage.googleapis.com/v0/b/reactjsdiego.appspot.com/o/3.png?alt=media&token=96e45d5f-1bc2-4ad9-a7f4-be37b8c645e7",
+  "category": "menos de 100, menor"
+},
+{
+  "id": 4,
+  "title": "30 kg de miel",
+  "size": "30kg",
+  "price": 200,
+  "stock": 500,
+  "img": "https://firebasestorage.googleapis.com/v0/b/reactjsdiego.appspot.com/o/4.png?alt=media&token=2d651e8c-8aab-4fcc-a3d2-4cddc6eb24c6",
+  "category": "menos de 100, menor"
+}
+]
